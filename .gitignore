@@ -1,0 +1,26 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Ob]j/
+[Ba]ild/
+[Bb]ilds/
+[Ll][ggs/
+[UserSettings_/
+MemoryCaptures/
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+.DS_Store
+
+# Crash reports
+sysinfo.txt
+crashlytics-build.properties
