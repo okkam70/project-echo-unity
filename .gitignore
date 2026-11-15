@@ -1,11 +1,10 @@
-# Unity generated
-[Ll]ibrary/
-[Tt]emp/
-[Ob]j/
-[Ba]ild/
-[Bb]ilds/
-[Ll][ggs/
-[UserSettings_/
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
 MemoryCaptures/
 
 # IDE / OS
