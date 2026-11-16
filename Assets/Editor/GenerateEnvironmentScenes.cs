@@ -76,6 +76,14 @@ public static class GenerateEnvironmentScenes
             cameraObj.transform.position = new Vector3(4, 3, -6);
             cameraObj.transform.LookAt(marker.transform);
 
+            // --- GameManager (solo nella scena d'ingresso) ---
+            if (i == 0)
+            {
+                var gameManager = new GameObject("GameManager");
+                gameManager.AddComponent<GameManager>();
+                gameManager.AddComponent<BackendClient>();
+            }
+
             // --- Ambiente (surface chiara, underground scura + nebbia) ---
             RenderSettings.ambientLight = env.underground
                 ? new Color(0.15f, 0.15f, 0.2f)
